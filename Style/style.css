@@ -100,7 +100,8 @@ span{
 }
 
 .home-img img{
-    width:25vw;
+    width:20vw;
+
     animation: floatImage 4s ease-in-out infinite;
 }
 
@@ -159,3 +160,82 @@ span{
 box-shadow: none;
 
 }
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background: var(--snd-bf-color);
+}
+
+.about-img img {
+width: 35vw;
+}
+
+.heading {
+    font-size: 4.5rem;
+    text-align: center;
+}
+
+.about-content h2 {
+    text-align: left;
+    line-height:1.5;
+}
+
+.about-content h3 {
+    font-size: 2.5rem;
+}
+
+.about-content p {
+    margin: 2rem 0 3rem;
+    font-size: 1.5rem;
+}
+
+.services h2{
+    margin-bottom: 5rem;
+}
+
+.services-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+
+.services-box .btn{
+    margin-top: 3rem;
+}
+
+
+.services-container .services-box {
+  flex: 1 1 30rem;
+  background: var(--snd-bf-color);
+  border: .2rem solid var(--bg-color);
+  padding: 3rem 2rem 3rem;
+  border-radius: 3rem;
+  text-align: center;
+  transition: .5s ease;
+}
+
+.services-container .services-box:hover {
+    border-color: var(--main-color);
+    transform: scale(1.07);
+}
+
+.services-box i {
+    font-size: 3rem;
+    margin-bottom: 1.6rem;
+    color: var(--main-color);
+}
+
+.services-box h3 {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+}
+
+.services-box p {
+    font-size: 1.3rem;
+}
+
